@@ -4,58 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>clase 3</title>
+    <title>clase 5</title>
 </head>
 <body>
-   
-    <div>
-        <br><br><br>
-        <h1>Carlos Horacio López</h1> 
-        <h2>Mis primeros pasos en html</h2>
-        <!--hasta h6-->
+    <h1>Crear cuenta</h1>
+    <fieldset>         <!--   el fielset es el recuadro que encierra el formulario-->
+        <legend>Informacion personal</legend>
+        <form action="">
+            <br>
+            <label for="">Nombre *</label>
+           
+            <input type="text" name="nombre" placeholder="Andrés">
+            <label for="">apellido * </label>
+            <input type="text" name="apellido" placeholder="Azcurra">
+            <br>
+            <label for="">Direccion de email *</label>
+            <input type="email" name="direccion de email" placeholder="@.com">
+            <br>
+            <label for="">Numero de documento *</label>
+            <input type="text" name="numero de documento" placeholder="xxxxxxx">
+            <br>
+         
+            <!-- solo numeros -->
+            <label for="">Edad</label> 
+            <input type="number" name="" id="" min="0" max="120">
+            <br>
+            <label for="">Adherirce al boletin de novedades</label>
+            <input type="checkbox" name="abn" id="" value="si"   checked>
+            <br>
+            <label for="">casado</label>
+            <span>si</span>
+            <input type="radio" name="casado" id="" value="si"  checked>
+            <span>no</span>
+            <input type="radio" name="casado" id="" value="no"  >
+            <br>
+            <label for="">cantidad</label>
+            <select name="" id=""> 
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <br>
 
-        <p>Lenguajes</p>
-        <!-- lista sin orden-->
-        <ul>
-            <li>java</li>         
-            <li>c#</li>
-            <li>go</li>
-        </ul>
-    
-        <p>Posiciones</p>
-        <!--listas ordenadas-->
-        <ol>
-            <li>primer</li>
-            <li>segundo</li>
-            <li>tercero</li>
-        </ol>
+            <input type="submit" value="Enviar">
+        </form>
+    </fieldset>
+    <!-- ahora lo que va hacer es hacerl en con tablas -->
+    <fieldset>
+        <legend>Form con tabla</legend>
+        <form action="../clase4/index.html" method="POST">
+        <table  >
+            <tr>
+                <td>
+                    <label for="nombre">nombre *</label><br>
+                    <input type="text " name="nombre">
+                </td>
+                <td> <label for="">apellido * </label><br>
+                    <input type="text" name="apellido" placeholder="Azcurra">
+                </td>
+            </tr>
+            <tr>
+                <td  colspan="2">
+                    <label for="">Direccion de email *</label><br>
+                <input type="email" name="direccion de mail" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">numero de documento *</label><br>
+                    <input type="number" name="numero de documento" min="1" max="99999999" placeholder="de 0 a 99999999">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="enviar">
+                </td>
+            </tr>
 
-        <!--imagen relativo -->
-        <img src="simpson.jpg" alt="Los Simpson" width="200">
 
-        <br/>
 
-        <!-- absoluto-->
-        <img src="https://picsum.photos/200/300">
+        </table>
+    </form>
 
-        <br>
 
-        <!--enlaces-->
-        <a href="https://picsum.photos/200/300" target="_blank">Ver Imagen</a>
 
-        <hr>
-        
-        <!--etiquetas basicas-->
-        c#
-        <b>c#</b>
-        <mark>java</mark>
-        <ins>go</ins>
-        <small>segundo</small>
-        <del>tercero</del>
-        <sup>CARLOS</sup>
-        <sub>LOPEZ</sub>
-    </div>
-
+    </fieldset>
     
 </body>
 </html>
