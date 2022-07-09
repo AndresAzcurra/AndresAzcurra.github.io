@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 6</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>clase 6</h1>
+            <fieldset>
+                <legend>Alta de usuario</legend>
+            <form action="AltaUsuario.html" method="post" >
+
+                <input type="file" name="dni-frente" id="">
+                <input type="hidden" value="valor oculto" name="campohidden">
+                <input type="url" name="url" id=""  placeholder="ejemplo url " >
+
+                <input type="text" name="nombre" id=""   placeholder="valores entre 1 y 9" >
+                
+                <br>
+
+                <textarea  name="info extra" id="" cols="20" rows="10"></textarea>
+                <br>
+                
+                <select name="selectmultiple"  multiple>
+                    <optgroup label="animales">
+                        <option >leon</option>
+                        <option >tigre</option>
+                    </optgroup>
+                    <optgroup label="colores"> 
+                        <option>rojo</option>
+                        <option>verde</option>
+                        <option >azul</option>
+                    </optgroup>
+                    <br>
+
+                    <input list="navegador"  name="datanavegador">
+                    <datalist  id="navegador" >
+
+                        <option >edge</option>
+                        <option >firefox</option>
+                        <option >opera</option>
+                        <option >brave</option>
+                    </datalist>
+
+                    <br>
+                    <label for="buscar">buscador</label>
+                    <input type="search" name="buscador"value="buscador" id="buscar">
+
+                       <label for="buscartext">buscadortext</label>
+                    <input type="text" name="buscartext"value="buscador texto" id="buscadortext">
+                    <input type="submit" value="enviar">
+
+                </select>
+            </form>
+      
+        </fieldset>
+        </section>
+    </main>
+    
+</body>
+</html>
