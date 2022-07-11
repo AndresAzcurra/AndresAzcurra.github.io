@@ -1,0 +1,22 @@
+
+body {
+    background-color: rgb(56, 214, 214);
+ } 
+ .classsection {
+    background-color: rgb(223, 235, 50);
+ }
+
+ 
+ .link {
+    color: blue;
+ }
+ 
+ .conteiner {
+   background-color: rgb(234, 148, 148);
+ }
+ .selectores {
+   font-size: 16px;
+ }
+ header {
+   background-color: antiquewhite;
+ }
