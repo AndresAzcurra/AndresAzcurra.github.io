@@ -1,0 +1,31 @@
+/*  y esta es otra forma  para poder inportar font  */
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Rubik+Moonrocks&display=swap');
+
+ 
+ h1 {
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 900;
+    font-family: 'Edu TAS Beginner', cursive;
+    
+}
+h2 {
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+
+   
+    nav ul li  {
+        list-style: lower-roman;
+    }
+    nav ul li a {
+        color: rgb(24, 162, 204);
+        font-size: 2em;
+
+    }
+    nav ul {
+        color: deeppink;
+    }
+    section p {
+        color: cadetblue;
+    }
