@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo elemento  clase 10</title>
+    <style>
+        h1::before{
+            content: '@';
+        }
+        h1::after {
+            content: '#';
+        }
+        h1 {
+            color:aquamarine;
+            font-family: 'Courier New', Courier, monospace;
+            text-transform: lowercase;
+        }
+        h2::first-letter{
+            border: 2px solid orange;
+        }
+        section p.clasep {
+            font-style: italic;
+        }
+        section p.clasep::before {
+            content: '--';
+            
+        }
+        section p.clasep::first-letter {
+            border: 2px solid red;
+        }
+        /* de esa forma lo que hice fue poner algo antes y despues de la etiqueta h1 */
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <a href="index.html">Volver</a>
+        </header>
+        <section>
+            <h1>pseudoelemento</h1>
+            <h2>sub titulo</h2>
+            <p class="clasep">texto de ejemplo</p>
+        </section>
+    </main>
+    
+</body>
+</html>

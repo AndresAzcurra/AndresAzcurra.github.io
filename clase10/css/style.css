@@ -1,0 +1,35 @@
+a:visited {
+    color: rgb(4, 173, 117);
+    font-size: 26px;
+}
+a:hover {
+    color: plum;
+  font-size: 18px;
+  text-decoration: line-through;
+}
+a:active {
+    color:green;
+    text-transform: uppercase;
+}
+ div p:nth-child(1){
+    color: brown;
+    font-size: 2em;
+}
+div p:nth-child(odd){
+    color: darkorange;
+}
+div p:nth-child(even){
+    color :blue;
+}
+/* para los elelmentos pares es odd y para los inpares es  even   (  nth-child(odd)  )  */
+table tr:nth-child(odd){
+    background-color: aqua;
+}
+
+table tr:nth-child(even){
+    background-color: burlywood;
+}
+.ureles  {
+    display: flex;
+    justify-content:space-around;
+}
